@@ -1,3 +1,3 @@
-# PowerShell code to add a Custom Sync Rule to filter on a custom attribute
+# Azure AD Connect Custom Sync Rule - Filter on custom Active Directory Attribute
 
-Custom Sync Rule for Azure AD Connect to filter on Attribute - PowerShell
+Azure AD Connect gives you the ability to create custom sync rules within the sync service editor.
