@@ -57,6 +57,6 @@ To create a custom Active Directory Attribute to use for the user objects if one
 
 [How to Create a Custom Attribute in Active Directory](https://social.technet.microsoft.com/wiki/contents/articles/20319.how-to-create-a-custom-attribute-in-active-directory.aspx)
 
-Use this to generate OID for attribute:
+Use this to generate OID for a custom attribute:
 
 [Generate an Object Identifier from Powershell](https://gallery.technet.microsoft.com/scriptcenter/Generate-an-Object-4c9be66a)
