@@ -12,7 +12,7 @@ This leaves selecting specific OUs in the Azure AD Connect Install and configura
 
 [Changes to Synchronization Rules](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-sync-best-practices-changing-default-configuration#changes-to-synchronization-rules)
 
-The built in sync service editor can be used to create a custom rule in the graphical interface. An existing rule can be exported or a new rule can be created through a wizard.  The other option for rule creation is PowerShell.  Hence this repository and the PowerShell script contained within it.  
+The built in sync service editor can be used to create a custom rule in the graphical interface. An existing rule can be exported or a new rule can be created through a wizard.  The other option for rule creation is PowerShell.
 
 The purpose of the script is to create a custom sync rule in Azure AD Connect that will filter user objects synchronized from on-premises to Azure Active Directory.
 
