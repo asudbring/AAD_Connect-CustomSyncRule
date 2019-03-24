@@ -6,7 +6,7 @@ Azure AD Connect by default has the ability to filter objects from on-premises A
 
 [Group-based filtering](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-sync-configure-filtering#group-based-filtering)
 
-That leaves checking specific OUs in the Azure AD Connect Install Wizard.  If these options do not meet your requirements, Azure AD Connect has the ability to create custom sync rules within the sync service editor.  
+This leaves selecting specific OUs in the Azure AD Connect Install and configuration wizard.  If these options do not meet your requirements, Azure AD Connect has the ability to create custom sync rules within the sync service editor.  
 
 **Editing the built in rules is not recommended or supported and will be overwritten by an Azure AD Connect upgrade:**
 
