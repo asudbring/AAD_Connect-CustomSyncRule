@@ -2,7 +2,11 @@
 
 Azure AD Connect by default has the ability to filter objects from on-premises Active Directory using a Group, OU or both.  
 
-A group, per Microsoft Docs, should only be used in a pilot to test Azure AD Connect.  That leaves checking specific OUs in the Azure AD Connect Install Wizard.  If these options do not meet your requirements, Azure AD Connect has the ability to create custom sync rules within the sync service editor.  Editing the built in rules is not recommended or supported and will be overwritten by an Azure AD Connect upgrade. 
+A group, per Microsoft documentation, should only be used in a pilot to test Azure AD Connect.  
+
+[Group-based filtering](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-sync-configure-filtering#group-based-filtering)
+
+That leaves checking specific OUs in the Azure AD Connect Install Wizard.  If these options do not meet your requirements, Azure AD Connect has the ability to create custom sync rules within the sync service editor.  Editing the built in rules is not recommended or supported and will be overwritten by an Azure AD Connect upgrade. 
 
 The built in sync service editor can be used to create a custom rule in the graphical interface. An existing rule can be exported or a new rule can be created through a wizard.  The other option for rule creation is PowerShell.  Hence this repository and the PowerShell script contained within it.  
 
