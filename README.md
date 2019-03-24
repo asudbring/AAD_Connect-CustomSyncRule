@@ -29,13 +29,13 @@ $Connector = Get-ADSyncConnector
 $attribute = 'customAttribute1'
 ```
 
-* **$RuleName** - Enter the name of the Rule
+* **$RuleName** - Enter the name of the Rule.
 
 * **$ID** - **New-Guid** is executed to generate a unique identifier for the rule.
 
-* **$Description** - Enter Description for Rule
+* **$Description** - Enter Description for Rule.
 
-* **$Connector** - **Get-ADSyncConnector** is executed to retrieve the sync connector configuration
+* **$Connector** - **Get-ADSyncConnector** is executed to retrieve the sync connector configuration.
 
 * **$attribute** - Enter the name of the built in or custom Active Directory Attribute that the user object will contain AllowSync, BlockSync or remain blank.
 
