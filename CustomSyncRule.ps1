@@ -22,7 +22,7 @@ New-ADSyncRule `
 -PrecedenceBefore '00000000-0000-0000-0000-000000000000' `
 -SourceObjectType 'user' `
 -TargetObjectType 'person' `
--Connector $Connector[1] `
+-Connector $Connector[1].Identifier `
 -LinkType 'Join' `
 -SoftDeleteExpiryInterval 0 `
 -ImmutableTag '' `
