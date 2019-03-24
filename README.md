@@ -1,4 +1,4 @@
-# Azure Active Directory Connect Custom Sync Rule - Filter on custom or existing Active Directory Attribute
+# Azure Active Directory custom sync rule - Filter on custom or existing Active Directory Attribute
 
 Azure AD Connect by default has the ability to filter objects from on-premises Active Directory using a Group, OU or both.  
 
