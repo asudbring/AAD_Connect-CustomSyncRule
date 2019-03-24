@@ -47,6 +47,8 @@ To verify that the filtering is working on the staging server or test server, re
 
 [Azure AD Connect: Staging server and disaster recovery](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-sync-staging-server)
 
+## More Information
+
 For more information on rule creation and instructions on how to add a custom attribute to the sync service refer to this document:
 
 [Azure AD Connect sync: Make a change to the default configuration](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-sync-change-the-configuration)
