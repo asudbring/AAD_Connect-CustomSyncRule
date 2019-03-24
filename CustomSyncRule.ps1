@@ -2,8 +2,7 @@
 Commands to create custom sync rule in Azure AD connect to filter accounts.  
 
 Rule Definition:
-If 'customAttribue1' contains BlockSync AND NotContain AllowSync then DO NOT SYNC to AAD ##
-
+If 'customAttribue1' contains BlockSync AND NotContain AllowSync then DO NOT SYNC to AAD
 #>
 
 # Enter Variables for commands #
